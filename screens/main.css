@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.myname-header {
+  margin: 30px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myname-header__title {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.context {
+  margin: 50px 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.context__button {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+}
+
+#portrait {
+  display: flex;
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +14,7 @@
       </header>
     </div>
     <div class="context">
-      <img src="images/pic_Hope.jpg" alt="portrait - Hope" />
+      <img src="images/pic_Hope.jpg" alt="portrait - Hope" id="portrait" />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque
         ipsam nobis, suscipit praesentium magnam rem eligendi similique error
@@ -22,18 +22,18 @@
         exercitationem quos.
       </p>
     </div>
-    <div>
+    <div class="context__button">
       <button
-        class="follow"
         type="button"
         onclick="location.href='follow.html'"
+        id="follow-btn"
       >
         Follow
       </button>
       <button
-        class="follow"
         type="button"
         onclick="location.href='Message.html'"
+        id="message-btn"
       >
         Message
       </button>
