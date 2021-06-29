@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
 
 body {
   font-family: "Open Sans", sans-serif;
 }
 
 .myname-header {
-  margin: 30px 0px;
+  top: 0;
+  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -13,28 +15,59 @@ body {
 }
 
 .myname-header__title {
-  margin-bottom: 20px;
-  font-size: 50px;
+  margin: 30px;
+  font-size: 70px;
+  font-weight: 600;
 }
 
 .context {
-  margin: 50px 400px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.context__button {
+.context__portrait {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border-block-width: 50%;
+  padding: 50px;
+  width: 200px;
+}
+
+.context__text {
+  font-size: 16px;
+  width: 700px;
+  line-height: 25px;
+  color: gray;
+}
+
+.button {
   margin: 50px;
   display: flex;
   justify-content: center;
-  padding: 5px 3px;
+  align-items: center;
 }
 
-#portrait {
-  display: flex;
-  border-radius: 50%;
-  max-width: 300px;
-  max-height: 300px;
+#follow-btn {
+  background-color: rgb(61, 61, 255);
+  border: none;
+  border-radius: 9px;
+  width: 150px;
+  height: 50px;
+  margin: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+#message-btn {
+  background-color: white;
+  border: solid 2px rgb(61, 61, 255);
+  border-radius: 9px;
+  width: 150px;
+  height: 50px;
+  margin: 30px;
+  font-size: 20px;
+  color: rgb(102, 102, 102);
 }
