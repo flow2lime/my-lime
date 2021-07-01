@@ -1,21 +1,27 @@
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="message.css" />
+    <link rel="stylesheet" href="screens/message.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Message for Hope</title>
   </head>
   <body>
-    <header>
-      <h1>Leave a message</h1>
-    </header>
-    <div class="messenger">
-      <img src="images/messenger.jpg" alt="messenger" />
-    </div>
-    <div>
-      <input type="text" placeholder="message" size="50" />
-      <input type="submit" value="return" />
+    <div class="contents">
+      <header class="message__title">
+        <h1>Leave a message</h1>
+      </header>
+      <form class="text-editor">
+        <input type="text" placeholder="message" size="60" />
+        <input type="submit" value="return" />
+      </form>
+      <div class="img">
+        <img
+          src="images/messenger.jpg"
+          alt="messenger"
+          class="img__messenger"
+        />
+      </div>
     </div>
   </body>
 </html>
